@@ -1,37 +1,69 @@
 # pha_onekey
 
-#### 介绍
-Phala 一键部署脚本
+> Phala Deploy Script for One Key 
 
-#### 软件架构
-软件架构说明
+English| [简体中文](./README_cn.md)
+
+current version: 2.0
+
+### Ability
+
+- automatic init pha environment
+- automatic start pha sync
+- SGX level test
+- Score test
+- SGX driver repair
+- Installation sunloginclient/todesk for one key
+
+### First install
+
+- in terminal: 
+
+```bash
+curl -o pha https://gitee.com/KimJungWha/pha_onekey/raw/master/pha && sudo chmod +x pha && ./pha
+```
+### Follow up use
+
+- in terminal:
+```bash
+pha
+```
+
+- Select the corresponding option according to the serial number
+
+    ![view](./pictures/view.png)
+
+### FAQ
+
+1. Dependency installation failed
+    * The script installs the necessary dependent environment by default when it starts, but if the network is too poor, the following situations will occur
+    * ![](./pictures/01.png)
+
+- Solution: 
+    * close the terminal
+    * Re-open the terminal, enter pha => Enter to enter the program
+    * select  `(1) 重新安装环境依赖` 
+    * If the execution still fails, check the network, restart the system, repeat the above steps, and add customer service
+    * ![](./pictures/02.png)
+
+2. Installation dependency stuck
+    * If the image has been released for a period of time, for example, `Ubuntu20.04` was released in 2020, and there are too many packages to be upgraded, it may be stuck (it will be stuck here for dozens of minutes)
+    * ![](./pictures/03.png)
+
+- Solution:
+    * close the terminal、restart the system
+    * Re-open the terminal, enter pha => Enter to enter the program
+    * select  `(1) 重新安装环境依赖` 
+    * If the execution still fails, check the network, restart the system, repeat the above steps, and add customer service
 
 
-#### 安装教程
+3. About activation
+    * After the script is installed, the default state is not activated
+    * select `(12) 添加客服微信` 将机器码发给客服
+    * When you receive the activation code sent by the customer service, select `(13) 激活脚本` to paste the activation code into the script activation
+    * ![](./pictures/04.png)
+    * ![](./pictures/05.png)
+    * ![](./pictures/06.png)
+    * ![](./pictures/07.png)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+4. For other questions, add customer service WeChat, customer service will pull you into the wechat group
