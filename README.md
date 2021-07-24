@@ -59,7 +59,7 @@ pha
 
 3. About activation
     * After the script is installed, the default state is not activated
-    * select `(12) 添加客服微信` 将机器码发给客服
+    * select `(12) 添加客服微信` Send the machine code to customer service
     * When you receive the activation code sent by the customer service, select `(13) 激活脚本` to paste the activation code into the script activation
     * ![](./pictures/04.png)
     * ![](./pictures/05.png)
