@@ -20,7 +20,7 @@
 - 在 Ubuntu 终端下，执行以下命令:
 
 ```bash
-curl -o pha https://gitee.com/KimJungWha/pha_onekey/raw/master/pha && sudo chmod +x pha && ./pha
+curl -o pha https://gitee.com/xujing-CZ/pha_onekey/raw/master/pha && sudo chmod +x pha && ./pha
 ```
 ### 后续使用
 
