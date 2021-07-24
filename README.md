@@ -20,7 +20,7 @@ current version: 2.0
 - in terminal: 
 
 ```bash
-curl -o pha https://gitee.com/KimJungWha/pha_onekey/raw/master/pha && sudo chmod +x pha && ./pha
+curl -o pha https://xujing-CZ/pha_onekey/raw/master/pha && sudo chmod +x pha && ./pha
 ```
 ### Follow up use
 
