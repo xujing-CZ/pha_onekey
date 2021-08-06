@@ -2,7 +2,7 @@
 
 > Phala Deploy Script for One Key 
 
-English| [简体中文](./README_cn.md)
+English | [简体中文](./README_cn.md)
 
 current version: 2.0
 
