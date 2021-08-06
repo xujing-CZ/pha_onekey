@@ -1,8 +1,8 @@
 # pha_onekey
 
->PHA 环境一键部署脚本  
+>上禾云储专用 PHA 环境一键部署脚本  
 
-[English](./README.md)|简体中文
+[English](./README.md) | 简体中文
 
 当前版本: 2.0
 
